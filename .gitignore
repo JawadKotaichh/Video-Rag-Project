@@ -6,3 +6,5 @@ __pycache__/
 *.pyc
 data/transcripts/
 data/keyframes/
+# Large video files (over 100MB)
+Video RAG Jawad Kotaich.mp4
