@@ -15,15 +15,11 @@ The Streamlit interface provides an intuitive way to query videos using natural 
 Watch the demo video to see the system in action:
 
 <video width="800" controls>
-  <source src="data/demo.mp4" type="video/mp4">
+  <source src="https://raw.githubusercontent.com/JawadKotaichh/Video-Rag-Project/main/data/demo.mp4" type="video/mp4">
   Your browser does not support the video tag. <a href="data/demo.mp4">Click here to download the video</a>
 </video>
 
-The demo video showcases the complete workflow of the Video RAG system, including:
-- **Text-based queries**: Ask natural language questions about the video content
-- **Image-based queries**: Upload an image to find visually similar frames
-- **Multiple retrieval methods**: Compare results from FAISS, TF-IDF, and BM25
-- **Timestamp navigation**: Jump directly to relevant video segments
+**Video Description:** This demo video showcases the complete workflow of the Video RAG system. You'll see how to query videos using natural language questions and visual queries, compare results from different retrieval methods (FAISS, TF-IDF, and BM25), and navigate directly to relevant video segments using timestamps. The demonstration includes examples of text-based queries asking questions about video content, image-based queries for finding visually similar frames, and side-by-side comparison of retrieval method results.
 
 ---
 
