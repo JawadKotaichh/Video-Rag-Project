@@ -1,0 +1,77 @@
+[
+  {
+    "question": "What is the complexity of reconfiguration problems?",
+    "answerable": true,
+    "timestamp": 288.84
+  },
+  {
+    "question": "Is token jumping hard on bipartite graphs?",
+    "answerable": true,
+    "timestamp": 1264.44
+  },
+  {
+    "question": "What happens to token sliding and jumping when we remove certain cycles from a graph?",
+    "answerable": true,
+    "timestamp": 1911.00
+  },
+  {
+    "question": "Can token sliding be very hard even on C4-free graphs?",
+    "answerable": true,
+    "timestamp": 1571.56
+  },
+  {
+    "question": "Why are universal vertices used in token sliding reductions?",
+    "answerable": true,
+    "timestamp": 2106.76
+  },
+  {
+    "question": "what is the complexity of reconfiguration?",
+    "answerable": true,
+    "timestamp": 288.84
+  },
+  {
+    "question": "How do token jumping and token sliding differ on split graphs?",
+    "answerable": true,
+    "timestamp": 1397.96
+  },
+  {
+    "question": "What does it mean for a graph to be ε-sparse in token jumping?",
+    "answerable": true,
+    "timestamp": 2439.64
+  },
+  {
+    "question": "Is there an efficient algorithm for token jumping on (C3,C4)-free graphs?",
+    "answerable": true,
+    "timestamp": 2323.56
+  },
+  {
+    "question": "Why are edges subdivided in the token sliding reduction?",
+    "answerable": true,
+    "timestamp": 2196.52
+  },
+  {
+    "question": "What is the average summer temperature in Beirut?",
+    "answerable": false,
+    "timestamp": null
+  },
+  {
+    "question": "How many pizza toppings were mentioned in the lecture?",
+    "answerable": false,
+    "timestamp": null
+  },
+  {
+    "question": "Did the speaker talk about hiking trails near his university?",
+    "answerable": false,
+    "timestamp": null
+  },
+  {
+    "question": "What is the boiling point of water on another planet like Mars?",
+    "answerable": false,
+    "timestamp": null
+  },
+  {
+    "question": "Were any car models discussed during the talk?",
+    "answerable": false,
+    "timestamp": null
+  }
+]
