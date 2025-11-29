@@ -2,6 +2,31 @@
 
 A multimodal video retrieval system that enables semantic search across video content using both text and visual queries. This project implements multiple retrieval methods (FAISS, TF-IDF, BM25) to find relevant video segments based on natural language questions or uploaded images.
 
+## 📸 Demo
+
+### Application Interface
+
+![Application Interface](data/main_page.png)
+
+The Streamlit interface provides an intuitive way to query videos using natural language or visual queries. Users can enter text questions or upload images to find relevant video segments.
+
+### Demo Video
+
+Watch the demo video to see the system in action:
+
+<video width="800" controls>
+  <source src="data/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag. <a href="data/demo.mp4">Click here to download the video</a>
+</video>
+
+The demo video showcases the complete workflow of the Video RAG system, including:
+- **Text-based queries**: Ask natural language questions about the video content
+- **Image-based queries**: Upload an image to find visually similar frames
+- **Multiple retrieval methods**: Compare results from FAISS, TF-IDF, and BM25
+- **Timestamp navigation**: Jump directly to relevant video segments
+
+---
+
 ## 🎯 Overview
 
 This project extracts keyframes and transcripts from videos, creates embeddings for both visual and textual content, and builds multiple retrieval indices to enable fast and accurate video segment retrieval. The system provides an interactive Streamlit interface for querying videos with natural language questions or visual queries.
@@ -206,31 +231,6 @@ python evaluation/Golden_Test.py
 
 The script evaluates all retrieval methods against a golden test set and reports accuracy metrics.
 
-## 📸 Demo
-
-### Application Interface
-
-![Application Interface](data/main_page.png)
-
-The Streamlit interface provides an intuitive way to query videos using natural language or visual queries. Users can enter text questions or upload images to find relevant video segments.
-
-### Demo Video
-
-Watch the demo video to see the system in action:
-
-<video width="800" controls>
-  <source src="data/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag. <a href="data/demo.mp4">Click here to download the video</a>
-</video>
-
-The demo video showcases the complete workflow of the Video RAG system, including querying with text and images, and viewing results from different retrieval methods.
-
-### Features Demonstrated
-
-- **Text-based queries**: Ask natural language questions about the video content
-- **Image-based queries**: Upload an image to find visually similar frames
-- **Multiple retrieval methods**: Compare results from FAISS, TF-IDF, and BM25
-- **Timestamp navigation**: Jump directly to relevant video segments
 
 ## 🔧 Configuration
 
