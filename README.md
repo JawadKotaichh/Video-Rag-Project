@@ -2,7 +2,7 @@
 
 A multimodal video retrieval system that enables semantic search across video content using both text and visual queries. This project implements multiple retrieval methods (FAISS, TF-IDF, BM25) to find relevant video segments based on natural language questions or uploaded images.
 
-## 📸 Demo
+## Demo
 
 ### Application Interface
 
@@ -18,7 +18,7 @@ Watch the demo video to see the system in action:
 
 ---
 
-## ✨ Features
+## Features
 
 - **Multimodal Retrieval**: Support for both text-based and image-based queries
 - **Multiple Retrieval Methods**:
@@ -55,7 +55,7 @@ The system follows a pipeline architecture:
    - Multi-method retrieval and ranking
    - Timestamp-based video segment return
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 
@@ -97,7 +97,7 @@ The system follows a pipeline architecture:
    - The project includes FFmpeg binaries in `app/ffmpeg/`
    - Or download from [FFmpeg official website](https://ffmpeg.org/download.html)
 
-## 📖 Usage
+## Usage
 
 ### 1. Prepare Your Video
 
@@ -162,11 +162,4 @@ streamlit run app/main.py
 ```
 
 The application will open in your browser at `http://localhost:8501`.
-
-## 👤 Author
-
-Jawad Kotaich
-
----
-
 For more details, see the project documentation in `rag.pdf`.
